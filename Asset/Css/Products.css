@@ -2,9 +2,15 @@
 body {
   margin: 100;
   padding: 100;
+  
   font-family: "Raleway", sans-serif;
 }
 
+
+h1 {
+  color: #00d08b;
+  font-weight: 700;
+}
 section{  
   border:1px solid pink;  
   padding:15px;  
