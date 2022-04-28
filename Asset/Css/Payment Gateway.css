@@ -1,15 +1,54 @@
-
-body {
-  font-family: Arial;
-  font-size: 17px;
-  padding: 8px;
-  background-color: rgb(18, 240, 136);
-}
-
 * {
   box-sizing: border-box;
   
 }
+/*---------------------------------------------------------------*/
+body {
+  font-family: "Poppins", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  font-weight: 500;
+  outline: none;
+  background: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #4ffac1;
+  font-weight: 700;
+}
+
+p {
+  color: #7e4eec;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 90%;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  background-color: #2acfcf;
+  text-transform: capitalize;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 0.3s;
+}
+
+
+/* ------------------------------------------------------------------ */
 
 .row {
   display: -ms-flexbox; /* IE10 */
@@ -39,9 +78,9 @@ body {
     padding: 0 16px;
   }
   .container {
-    background-color: #f2f2f2;
+    background-color: #000000;
     padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(211, 211, 211);
     border-radius: 3px;
   }
   

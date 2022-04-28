@@ -6,12 +6,154 @@
 	box-sizing: border-box;
 }
 
+
 body {
-	height: 100vh;
+	font-family: "Poppins", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+	font-weight: 500;
+	outline: none;
 	display: grid;
+	background: #000000;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+	color: #4ffac1;
+	font-weight: 700;
+  }
+  
+  p {
+	color: #7e4eec;
+	font-weight: 500;
+	line-height: 1.7;
+  }
+  
+  a {
+	text-decoration: none;
+  }
+  
+  img {
+	max-width: 90%;
+  }
+  
+  .btn {
+	display: inline-block;
+	color: white;
+	background-color: #2acfcf;
+	text-transform: capitalize;
+	font-weight: 700;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 100px;
+	transition: 0.3s;
+  }
+  
+  .btn.btn-sm {
+	padding: 7px 21px;
+  }
+  
+  .btn.btn-lg {
+	padding: 12px 36px;
+  }
+  
+  .btn.btn-plus-icon {
+	display: flex;
 	align-items: center;
-	font-family: 'Poppins', sans-serif;
-}
+	justify-content: center;
+	column-gap: 10px;
+  }
+  
+  .btn.btn-plus-icon .icon {
+	font-size: 22px;
+  }
+  
+  .btn:hover {
+	background-color: #6be1e1;
+  }
+  
+  .flex-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 50px;
+  }
+  
+  .flex-ver-top {
+	align-items: flex-start;
+  }
+  
+  .scale-effect:active {
+	transform: scale(0.88);
+	transition: 0.2s;
+  }
+  
+  .section-header {
+	text-align: center;
+  }
+  
+  .section-header h2 {
+	font-size: 35px;
+  }
+  
+  @media (max-width: 500px) {
+	.section-header h2 {
+	  font-size: 26px;
+	}
+  }
+  
+  @media (max-width: 280px) {
+	.section-header h2 {
+	  font-size: 22px;
+	}
+  }
+  
+  .section-header p {
+	width: 50%;
+	margin: 7px auto 0;
+  }
+  
+  @media (max-width: 992px) {
+	.section-header p {
+	  width: 70%;
+	}
+  }
+  
+  @media (max-width: 500px) {
+	.section-header p {
+	  width: 100%;
+	}
+  }
+  
+  .container {
+	position: relative;
+	width: 78%;
+	margin: 0 auto;
+  }
+  
+  @media (max-width: 992px) {
+	.container {
+	  width: 90%;
+	}
+  }
+  
+  .header {
+	padding: 45px 0;
+  }
+  
+  .header .logo img {
+	height: 30px;
+  }
+  
+  .header .main-navgation {
+	flex: 1;
+	gap: 0;
+  }
+
+
 
 .contact-wrap {
 	width: 80%;
@@ -43,7 +185,7 @@ body {
 
 .contact-in h1 {
 	font-size: 24px;
-	color: rgba(13, 12, 12, 0.336);
+	color: #fff;
 	text-transform: uppercase;
 	font-weight: 500;
 	margin-bottom: 20px;

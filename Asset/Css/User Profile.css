@@ -2,7 +2,7 @@
 :root {
   --body-bg-color: #e4e6f5;
   --border-color: #e5e4e9;
-  --theme-bg-color: #fff;
+  --theme-bg-color: rgb(0, 0, 0);
   --body-color: #1b1f31;
   --main-color: #7a7e9d;
   --main-light-color: #a1a4b9;
@@ -31,6 +31,17 @@ body {
   color: var(--body-color);
   font-size: 15px;
 }
+
+
+
+h1,
+h2,
+h3,
+h4 {
+  color: #4ffac1;
+  font-weight: 700;
+}
+
 
 img {
   max-width: 100%;

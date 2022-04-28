@@ -165,7 +165,7 @@ section{
   height: 100%;
   padding: 5%;
   top: 20%;
-  background: linear-gradient(rgba(118, 243, 233, 0.5), rgba(212, 165, 252, 0.5)), url();
+  background: linear-gradient(rgba(118, 243, 233, 0.5), rgba(212, 165, 252, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -236,7 +236,7 @@ section{
   }
 }
 .about {
-  background: linear-gradient(rgba(180, 164, 252, 0.5), rgba(230, 238, 124, 0.5)), url();
+  background: linear-gradient(rgba(180, 164, 252, 0.5), rgba(230, 238, 124, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -244,63 +244,63 @@ section{
 
 
 .contact {
-  background: linear-gradient(rgba(208, 247, 176, 0.5), rgba(243, 160, 160, 0.5)), url();
+  background: linear-gradient(rgba(208, 247, 176, 0.5), rgba(243, 160, 160, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .work {
-  background: linear-gradient(rgba(240, 139, 231, 0.5), rgba(157, 240, 184, 0.5)), url();
+  background: linear-gradient(rgba(240, 139, 231, 0.5), rgba(157, 240, 184, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .Raj {
-  background: linear-gradient(rgba(188, 136, 223, 0.5), rgba(242, 250, 136, 0.5)), url();
+  background: linear-gradient(rgba(188, 136, 223, 0.5), rgba(242, 250, 136, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .Ram {
-  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5)), url();
+  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .mukund {
-  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5)), url();
+  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .darshan {
-  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5)), url();
+  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .yogesh {
-  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5)), url();
+  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .vishnu {
-  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5)), url();
+  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 .ramesh {
-  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5)), url();
+  background: linear-gradient(rgba(248, 190, 219, 0.5), rgba(222, 178, 243, 0.5));
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
