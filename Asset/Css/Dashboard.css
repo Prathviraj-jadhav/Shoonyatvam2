@@ -1,6 +1,6 @@
 @import "https://s3-us-west-2.amazonaws.com/s.cdpn.io/584938/dashboard.scss";
 body {
-  background-color: #1b2431;
+  background-color: #000000;
   color: #202020;
   font-family: "Montserrat", "Helvetica", "Open Sans", "Arial";
   font-size: 13px;
@@ -17,7 +17,7 @@ figure {
 }
 
 .navbar {
-  background-color: #1b2431;
+  background-color: #000000;
 }
 
 .sidebar {
@@ -86,16 +86,16 @@ figure {
   padding: 0 10px;
 }
 .card.blue {
-  background-color: #2298F1;
+  background-color: #273142;
 }
 .card.green {
-  background-color: #66B92E;
+  background-color: #273142;
 }
 .card.orange {
-  background-color: #DA932C;
+  background-color: #273142;
 }
 .card.red {
-  background-color: #D65B4A;
+  background-color: #273142;
 }
 
 .projects {
@@ -192,16 +192,17 @@ figure {
   width: 14px;
 }
 .projects-table .status-text.status-blue:before {
-  border-color: #1C93ED;
+  border-color: #4ffac1;
 }
 .projects-table .status-text.status-green:before {
-  border-color: #66B92E;
+  border-color: #7e4eec;
 }
 .projects-table .status-text.status-orange:before {
-  border-color: #DA932C;
+  border-color: #4ffac1;
 }
 .projects-table .status-text.status-red:before {
-  border-color: #D65B4A;
+  border-color: #7e4eec;
+}
 }
 
 .selectric {
