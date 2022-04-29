@@ -11,10 +11,13 @@ h1,
 h2,
 h3,
 h4 {
-  color: #000000;
+  color: #ffffff;
   font-weight: 700;
 }
 
+span, ul,div {
+  color: #ffffff;
+}
 
 
 a {
@@ -27,8 +30,8 @@ img {
 
 .btn {
   display: inline-block;
-  color: white;
-  background-color: #2acfcf;
+  color: rgb(0, 0, 0);
+  background-color: #c9a0f6;
   text-transform: capitalize;
   font-weight: 700;
   border: none;
@@ -64,7 +67,7 @@ margin: 5% auto;
 
 .breadCrumbs>a{
   text-decoration: none; 
-  color: #fff;
+  color: #000000;
 }
 
 .breadCrumbs>a:hover{
@@ -73,7 +76,7 @@ margin: 5% auto;
 
 .nav
 {
-background: #ECF3F6;
+background: #cd8ef8;
 padding: 10px;
 margin-bottom: 10px;
 }
@@ -90,7 +93,7 @@ float:left;
 min-width: 160px;
 max-width: 198px;
 margin-right: 20px;
-background: #fff;
+background: #000000;
 }
 
 .sidebar.slim{
@@ -100,7 +103,7 @@ background: #fff;
 .content
 {
 overflow: hidden;
-background: #fff;
+background: rgb(0, 0, 0);
 }
 
 .content p
@@ -143,7 +146,7 @@ clear: both;
 
 .productStage
 {
-  background: #fff;
+  background: rgb(0, 0, 0);
   width: 700px;
   margin-right: 20px;
 }
@@ -174,7 +177,7 @@ span a{
 .button
 {
 display: block;
-color: #fff;
+color: rgb(0, 0, 0);
 border-radius: 4px;
 padding: 5px;
 margin: auto;
@@ -193,34 +196,34 @@ text-decoration: none;
 .add{
   width: 150px;
   line-height: 2em;
-  background: #59A80F;
+  background: #94e9b0;
 }
 
 .add:hover{
-  background: #4B8E0D;
+  background: #a228f3;
 }
 
 .wish{
   width: 150px;
-  background: #45ADA8;
+  background: #b7edea;
 }
 
 .wish:hover{
-  background: #388B87;
+  background: #c583f8;
 }
 
 .submit{
-  background: #EAEAEA;
-  color: #555;
+  background: #9b19f9;
+  color: rgb(232, 232, 232);
   float: right;
   text-transform: uppercase;
   font: bold 10px Verdana;
 }
 
 .blueSubmit{
-  background: #22697F;
-  color: #fff;
-  border: 1px solid #22697F;
+  background: #cef4ff;
+  color: rgb(5, 5, 5);
+  border: 1px solid #7a09e3;
 }
 
 .right{
@@ -234,7 +237,7 @@ text-decoration: none;
 .imageList { list-style: none; margin: 5px 0px 2px 0px; padding: 0; }
 .imageList li { display: inline; padding: 0; margin: 0 2px;  }
 .imageList a { text-decoration: none; }
-.imageList img { border: 1px solid #D3D3D3; vertical-align: top; }
+.imageList img { border: 1px solid #966bce; vertical-align: top; }
 
 .prodSelect{
   width: 100%;
@@ -254,12 +257,12 @@ text-decoration: none;
 }
 
 .info h3{
-  background: #22697F;
+  background: #c6ecf7;
   line-height: 36px;
   padding: 5px 0 5px 20px;
   border-radius: 4px;
   letter-spacing: 1px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   text-shadow:1px 1px 3px rgba(0,0,0,0.5);
   font: 10pt Verdana;
   text-transform: uppercase;
@@ -291,6 +294,7 @@ text-decoration: none;
 width: 150px;
 padding: 10px 0 0 10px;
 display: inline-block;
+background-color: #000000;
 text-align: center;
 font-size: 11px;
 line-height: 14px;
@@ -352,12 +356,13 @@ vertical-align: bottom;
 {
 margin: 10px 0 5px 0;
 font-weight: bold;
-color: #464646;
+background-color: #000000;
+color: #ffffff;
 }
 
 .prodName
 {
-color: #464646;
+color: #ffffff;
 margin: 0 0 5px 0;
 }
 
@@ -367,8 +372,8 @@ text-decoration: none;
 }
 
 .review{
-  background: #E7F5FD;
-  color: #555;
+  background: #000000;
+  color: #fff;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 15px;
@@ -409,7 +414,7 @@ span.author{
 
 .botBorder{
   padding: 10px;  
-  border: 1px solid #B6B6AB;
+  border: 1px solid #9900ff;
   border-top: none;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -417,7 +422,7 @@ span.author{
 }
 
 .folderTab {
-background: #22697F;
+background: #b2e2f0;
 text-shadow: 1px 1px 0 rgba(0,0,0, .8);
 text-align: center;
 color: #fff;
@@ -434,7 +439,7 @@ border: 1px solid #22697F;
 .folderTab h3{  
   margin: 0;
   padding: 5px 0 5px 20px;
-  color: #fff;
+  color: rgb(10, 10, 10);
   text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
   letter-spacing: 1px;
   font: 10pt Verdana;
@@ -452,10 +457,10 @@ border: 1px solid #22697F;
  }
 
 .submit:hover{
-  background: #D2D2D2;
+  background: #935ed8;
 }
 
 .blueSubmit:hover{
-  background: #184A5A;
-  border: 1px solid #184A5A;
+  background: #96ea85;
+  border: 1px solid #73d9e4;
 }

@@ -70,7 +70,7 @@ nav ul li {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #333;
+  color:#fff;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -180,7 +180,7 @@ nav ul li a .cart::after {
 
 #main-content .box .tag {
   font-size: 0.9rem;
-  color: #000;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -262,7 +262,7 @@ nav ul li a .cart::after {
 
 .order .progressbar-track .progressbar li {
   font-size: 1.5rem;
-  border: 1px solid #333;
+  border: 1px solid rgb(141, 30, 181);
   padding: 5px 10px;
   border-radius: 50%;
   background-color: #dddddd;
@@ -315,8 +315,9 @@ nav ul li a .cart::after {
   background-color: #55009b;
 }
 
-.bg-light {
-  background-color: #f0ecec !important;
+.bg-light,#tag {
+  background-color: #1f1b1b !important;
+  color: #fff;
 }
 
 .green {
