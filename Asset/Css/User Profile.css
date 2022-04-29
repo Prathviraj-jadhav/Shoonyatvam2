@@ -1,18 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
 :root {
-  --body-bg-color: #e4e6f5;
+  --body-bg-color: #242429;
   --border-color: #e5e4e9;
   --theme-bg-color: rgb(0, 0, 0);
-  --body-color: #1b1f31;
+  --body-color: #8000ff;
   --main-color: #7a7e9d;
-  --main-light-color: #a1a4b9;
+  --main-light-color: #dcdcdf;
   --title-color: #979dc3;
   --body-font: "Jost", sans-serif;
   --button-bg-color: #eaeefc;
   --button-color: #4d76fd;
-  --unselected-mail: #f1f2f7;
-  --calendar-border-color: #cbcfe0;
-  --main-container-bg: #f0f0f7;
+  --unselected-mail: #000000;
+  --calendar-border-color: #162527;
+  --main-container-bg: #000000;
 }
 
 * {
