@@ -53,7 +53,7 @@ html {
   }
   
   b{
-  color:#000;
+  color:rgb(179, 40, 253);
   }
   
 .btn {
@@ -94,7 +94,7 @@ html {
 
   
   .fa{
-  color:#0b0b0b;
+  color:#dc77fe;
   cursor:pointer;
   }
   
@@ -294,14 +294,14 @@ html {
   
   .alert {
     padding: 20px;
-    background-color: #f44336;
-    color: white;
+    background-color: #a4fdc4;
+    color: black;
     opacity: 1;
     transition: opacity 0.6s;
     margin-bottom: 15px;
   }
   
-  .alert.success {background-color: #15fcbe;}
+  .alert.success {background-color: #152cfc;}
   .alert.info {background-color: #2196F3;}
   .alert.warning {background-color: #ff9800;}
   
