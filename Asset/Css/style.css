@@ -423,10 +423,10 @@ img {
 }
 .search-bar{
   background: #fff;
-  width: 100%;
+  width: 80%;
   margin: 30px auto;
   padding: 6px 10px 6px 20px;
-  border-radius: 20px 40px;
+  border-radius: 40px 20px;
 }
 .search-bar form{
   display: flex;
@@ -459,7 +459,6 @@ img {
 .search-bar form label{
   font-weight: 600;
 }
-
 
 
 
